@@ -10,8 +10,12 @@
 
 import React from 'react';
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
+import SplashScreen from 'react-native-splash-screen';
 
 const App = () => {
+  React.useEffect(() => {
+    SplashScreen.hide();
+  });
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
