@@ -11,6 +11,7 @@
 import React from 'react';
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
+import DeviceInfo from './src/device_info/DeviceInfo';
 
 const App = () => {
   React.useEffect(() => {
@@ -21,6 +22,7 @@ const App = () => {
       <Text>Open up App.js to start working on your app!</Text>
       {/* <Translated /> */}
       <StatusBar backgroundColor="#49a" />
+      <DeviceInfo />
     </View>
   );
 };
