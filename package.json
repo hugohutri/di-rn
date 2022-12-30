@@ -15,6 +15,7 @@
     "react-native": "0.70.6",
     "react-native-device-info": "^10.3.0",
     "react-native-localize": "^2.2.4",
+    "react-native-permissions": "^3.6.1",
     "react-native-splash-screen": "^3.3.0"
   },
   "devDependencies": {

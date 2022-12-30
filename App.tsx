@@ -13,6 +13,7 @@ import {StatusBar, StyleSheet, Text, View} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 import DeviceInfo from './src/DeviceInfo';
 import NetworkInfo from './src/NetworkInfo';
+import Permissions from './src/Permissions';
 
 const App = () => {
   React.useEffect(() => {
@@ -25,6 +26,7 @@ const App = () => {
       <StatusBar backgroundColor="#49a" />
       <DeviceInfo />
       <NetworkInfo />
+      <Permissions />
     </View>
   );
 };
